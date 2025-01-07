@@ -1,0 +1,13 @@
+:root {
+
+    /* variables para fuentes */
+    --font-title: "Roboto Condensed", serif;
+    --font-text: "Montserrat", serif;
+
+    /* variables para colores */
+    --color-negro: #242424;
+    --color-blanco: #F1F1F1;
+    --color-gris: #696969;
+    --color-azul: #083F87;
+    --color-amarillo: #E9CB37;
+}
