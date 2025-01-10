@@ -8,6 +8,17 @@
     --color-negro: #242424;
     --color-blanco: #F1F1F1;
     --color-gris: #696969;
-    --color-azul: #083F87;
+    --color-azul: #083f87;
     --color-amarillo: #E9CB37;
 }
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('/fondos/fondo1.webp');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
