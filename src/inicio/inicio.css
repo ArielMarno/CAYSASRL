@@ -284,6 +284,7 @@
     .inicio aside h4{
         font-size: 0.9rem;
     }
+
     .inicio aside h1{
         font-size: clamp(2rem, 1.5103rem + 2.0619vw, 2.5rem);
     }
@@ -298,6 +299,11 @@
     }
 
     .inicio .contenedor_btn{
-        gap: 1rem;
+        margin-top: 0.5rem;
+        gap: 3vw;
+    }
+
+    .inicio .contenedor_btn a{
+        padding: 0.6rem 1.1rem;
     }
 }
