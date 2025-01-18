@@ -22,3 +22,10 @@ body{
     background-attachment: fixed;
 }
 
+
+@media (max-width: 768px){
+
+    body{
+        background-image: url('/fondos/fondo1-rsp.webp');
+    }
+}

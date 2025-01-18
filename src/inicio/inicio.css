@@ -17,7 +17,7 @@
     align-items: center;
     background: var(--color-blanco);
     box-shadow: 0 10px 15px rgba(8, 63, 135, 0.3);
-    padding: 1rem 5rem;
+    padding: 1rem 7rem;
     z-index: 1000;
 }
 
@@ -46,7 +46,7 @@
     display: block;
     content: '';
     margin-top: 0.1rem;
-    border-bottom: solid 3px var(--color-negro);
+    border-bottom: solid 3px var(--color-gris);
     transform: scaleX(0);
     transition: transform 250ms ease-in-out;
 }
@@ -148,7 +148,7 @@
 .contenedor_btn a:last-child{
     background: none;
     color: var(--color-negro);
-    border:  3px solid var(--color-negro);
+    border:  2px solid var(--color-gris);
 }
 
 
