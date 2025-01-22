@@ -1,0 +1,38 @@
+.cinta {
+    width: 100%;
+    min-height: fit-content;
+    margin: auto;
+    overflow: hidden;
+    background: #e1e1e1;
+}
+
+.cinta .elementos {
+    padding: 1.5rem 0;
+    display: flex;
+    gap: 100px;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 40s linear infinite;
+    width: calc(250px * 18);
+}
+
+.cinta .logo {
+    width: 150px;
+    height: auto;
+}
+
+.cinta .logo img {
+    width: 100%;
+}
+
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(calc(-250px * 9));
+        transform: translateX(calc(-250px * 9));
+    }
+}
+  
+  

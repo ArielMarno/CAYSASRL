@@ -1,0 +1,176 @@
+/*contenedor principal del componente*/
+.clientes{
+    background: var(--color-blanco);
+    width: 100%;
+    min-height: 100svh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 7rem;
+    gap: 3rem;
+}
+
+/*contenedor de la imagen de oficina*/
+.clientes .contenedor-imagen{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+/*imagen de oficina*/
+.clientes .contenedor-imagen img{
+    max-width: 800px;
+    max-height: 750px;
+    width: auto;
+    height: auto;
+    border-radius: 45px;
+}
+
+.clientes aside{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5rem;
+}
+
+/*contenedor de titulo texto y botón*/
+.clientes .titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+/*titulo*/
+.clientes .titulo h2{
+    font-family: var(--font-title);
+    font-size: clamp(2.5rem, 1.5495rem + 1.9802vw, 4rem);
+    font-weight: 500;
+    color: var(--color-negro);
+}
+
+/*contendor de parrafos*/
+.clientes .titulo .textos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/*parrafos*/
+.clientes .titulo .textos p{
+    font-family: var(--font-text);
+    font-size: clamp(1.1rem, 0.8465rem + 0.5281vw, 1.5rem);
+    font-weight: 500;
+    text-align: left;
+    color: var(--color-negro);
+    max-width: 550px;
+}
+
+/*botón*/
+.clientes .titulo a{
+    max-width: fit-content;
+    text-decoration: none;
+    font-family: var(--font-text);
+    font-size: clamp(1rem, 0.8099rem + 0.396vw, 1.3rem);
+    color: var(--color-negro);
+    font-weight: 550;
+    background: var(--color-amarillo);
+    padding: 0.9rem 1.8rem;
+    border-radius: 35px;
+    border:  3px solid var(--color-amarillo);
+}
+
+.clientes .lista{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3rem;
+}
+
+.clientes .lista .columna{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.clientes .lista div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.clientes .lista img{
+    width: 20px;
+    height: auto;
+}
+
+.clientes .lista p{
+    font-family: var(--font-text);
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--color-negro);
+}
+
+/*codigo para dispositivos mobiles*/
+@media (max-width: 1440px){
+
+    .clientes{
+        padding: 5rem 3rem;
+    }
+}
+
+@media (max-width: 1150px){
+
+    .clientes {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 5rem;
+    }
+
+    /*parrafos*/
+    .clientes .titulo .textos p{
+        max-width: 670px;
+    }
+
+    /*imagen de oficina*/
+    .clientes .contenedor-imagen img{
+        max-width: 100%;
+        max-height: auto;
+        width: auto;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px){
+
+    .clientes{
+        padding: 3rem 1rem;
+    }
+
+    .clientes .lista{
+        gap: 1.5rem;
+    }
+
+    .clientes .lista .columna{
+        gap: 0.5rem;
+    }
+
+    .clientes .lista img{
+        width: 15px;
+        height: auto;
+    }
+
+    .clientes .lista p{
+        font-size: clamp(0.8rem, 0.6041rem + 0.8247vw, 1rem);
+    }
+}
