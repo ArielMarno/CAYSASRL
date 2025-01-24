@@ -5,6 +5,7 @@ import Servicios from './servicios/Servicios';
 import Clientes from './clientes/Clientes';
 import Cinta from './clientes/Cinta';
 import Formulario from './contacto/Formulario';
+import Galeria from './galeria/Galeria';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Clientes />
       <Cinta />
       <Formulario />
+      <Galeria />
     </>
   )
 }

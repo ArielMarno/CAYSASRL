@@ -170,6 +170,11 @@
         height: auto;
     }
 
+    .contenido article{
+        max-width: 650px;
+        width: 100%;
+    }
+
     .nosotros .flecha{
         margin-top: 1rem;
     }
