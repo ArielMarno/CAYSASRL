@@ -1,0 +1,203 @@
+/*contenedor principal del componente*/
+.contacto{
+    min-height: 70svh;
+    display: grid;  
+    width: 100%;
+    padding: 0 7rem;
+    padding-top: 3rem;
+}
+
+.contacto main{
+    width: 100%;
+    justify-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+}
+
+/*contenedor de titulo, texto y formulario*/
+.formulario{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.formulario .contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+/*titulo*/
+.formulario h2{
+    font-family: var(--font-title);
+    font-size: clamp(2.5rem, 1.5495rem + 1.9802vw, 4rem);
+    font-weight: 500;
+    color: var(--color-blanco);
+}
+
+/*texto*/
+.formulario p{
+    font-family: var(--font-text);
+    font-size: clamp(1rem, 0.7465rem + 0.5281vw, 1.4rem);
+    font-weight: 500;
+    color: var(--color-blanco);
+    max-width: 550px;
+}
+
+/*formulario de contacto*/
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+/*input*/
+.formulario form input{
+    border: none;
+    font-family: var(--font-text);
+    color: var(--color-black);
+    background-color: var(--color-blanco);
+    font-size: 1.1rem;
+    width: 570px;
+    height: fit-content;
+    padding: 0.7rem 0.5rem;
+    border-radius: 5px;
+}
+
+/*botón*/
+.formulario form button{
+    text-decoration: none;
+    font-family: var(--font-text);
+    font-size: clamp(1rem, 0.8099rem + 0.396vw, 1.3rem);
+    color: var(--color-negro);
+    font-weight: 550;
+    background: var(--color-amarillo);
+    padding: 0.5rem 1.8rem;
+    border-radius: 35px;
+    border:  3px solid var(--color-amarillo);
+    cursor: pointer;
+}
+
+/*contenedor imagen*/
+.contacto main aside{
+    width: 50%;
+    height: 100%;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.contacto aside img{
+    max-width: 600px;
+    max-height: 800px;
+    width: auto;
+    height: auto;
+}
+
+
+/*codigo para dispositivos mobiles*/
+@media (max-width: 1440px){
+    .contacto{
+        padding: 0 5rem;
+        padding-top: 3rem;
+    }
+
+    .formulario p{
+        max-width: 500px;
+    }
+
+    .formulario form input{
+        width: 470px;
+    }
+
+    .contacto aside img{
+        max-width: 450px;
+        max-height: 550px;
+        width: auto;
+        height: auto;
+    }
+}
+
+@media (max-width: 1150px){
+
+    .contacto{
+        padding: 0 1.5rem;
+        padding-top: 3rem;
+    }
+
+    .contacto main{
+        align-self: flex-end;
+        padding-top: 3rem;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .contacto main .formulario{
+        width: 100%;
+        align-items: center;
+    }
+
+    .contacto main aside{
+        align-self: center;
+    }
+}
+
+@media (max-width: 768px){
+
+    .contacto{
+        padding: 0 1rem;
+        padding-top: 3rem;
+    }
+
+    .formulario p{
+        max-width: 380px;
+    }
+
+    .formulario form input{
+        width: 380px;
+    }
+
+    .contacto aside img{
+        max-width: 380px;
+        max-height: 450px;
+        width: auto;
+        height: auto;
+    }
+
+    .formulario form button{
+        padding: 0.6rem 1.1rem;
+    }
+}
+
+@media (max-width: 480px){
+
+    .formulario p{
+        max-width: 100%;
+    }
+
+    .formulario form{
+        width: 100%;
+    }
+
+    .formulario form input{
+        width: 100%;
+    }
+
+    .contacto aside img{
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+    }
+}

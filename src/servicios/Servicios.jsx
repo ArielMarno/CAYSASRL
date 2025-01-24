@@ -69,9 +69,10 @@ const Servicios = () => {
 
       <div className='titulo'>
         <h2>Nuestros Servicios</h2>
-        <p>Contamos con personal capacitado en ofrecer los más completos servicios. <br />
-        La confianza en los sistemas de limpieza adoptados, nuestra correcta política <br />
-        de personal y una conducta fiscal ejemplar, nos convierten en su mejor opción.</p>
+        <p>Brindamos un servicio de limpieza integral, permitiendo que nuestros clientes puedan
+        delegar en nosotros estas tareas, quedando satisfechos por los resultados obtenidos.
+        Presupuestamos un plan de trabajos acorde a sus necesidades y requerimientos, luego
+        del relevamiento del lugar y en base a la información aportada por el cliente.</p>
       </div>
 
       <div className='slider'>

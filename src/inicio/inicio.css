@@ -46,7 +46,7 @@
     display: block;
     content: '';
     margin-top: 0.1rem;
-    border-bottom: solid 3px var(--color-gris);
+    border-bottom: solid 2px var(--color-gris);
     transform: scaleX(0);
     transition: transform 250ms ease-in-out;
 }

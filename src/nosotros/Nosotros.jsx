@@ -9,9 +9,16 @@ const Nosotros = () => {
         <div className='contenido'>
           <section>
             <h2>Sobre Nosotros</h2>
-            <p>En Rosario, allá por 1994, al ritmo de la ciudad y la demanda de un mercado creciente y altamente competitivo nace Caysa S.R.L.</p>
-            <p>A través de los años hemos incorporando tecnología, técnicas de limpieza y excelencia en recursos humanos para dar soluciones integrales a empresas y emprendimientos de diversos rubros.
-            <br />Estamos comprometidos a consolidar nuestra imagen brindando en cada ocasión un servicio de calidad y garantizando la plena satisfacción a nuestros clientes.</p>
+            <article>
+              <p>Caysa S.R.L ha logrado satisfacer por mas de 30 años las demandas de sus clientes y 
+              conseguir crecer permanentemente ofreciendo un servicio de calidad y compromiso.</p>
+              <p>Hemos incorporado tecnología en maquinarias, técnicas de limpieza y personal 
+              capacitado en Normas de Seguridad e Higiene que aseguran la eficiencia de las tareas
+              requeridas.</p>
+              <p> Nuestra trayectoria y profesionalidad han servido para consolidarnos como 
+              uno de los referentes y nos posiciona dentro de un mercado altamente competitivo en 
+              la ciudad de Rosario y alrededores.</p>
+            </article>
             <a href="#">Conocer Más</a>
           </section>
           </div>

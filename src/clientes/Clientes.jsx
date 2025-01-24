@@ -15,6 +15,8 @@ const Clientes = () => {
           <div className='textos'>
             <p>En Caysa S.R.L. brindamos nuestros servicios de higiene y mantenimiento a una amplia cartera de clientes de diversos rubros.</p>
             <p>Asesoramos tanto a pequeñas, medianas y grandes empresas como a clientes particulares.</p>
+            <p>Solo con revisar nuestra cartera de clientes le servirá para tener una garantía de la calidad de 
+            nuestros resultados.</p>
           </div>
           <a href="#">Más Información</a>
         </section>

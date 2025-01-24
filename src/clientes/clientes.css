@@ -58,13 +58,13 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    gap: 1rem;
+    gap: 0.5rem;
 }
 
 /*parrafos*/
 .clientes .titulo .textos p{
     font-family: var(--font-text);
-    font-size: clamp(1.1rem, 0.8465rem + 0.5281vw, 1.5rem);
+    font-size: clamp(1rem, 0.7465rem + 0.5281vw, 1.4rem);
     font-weight: 500;
     text-align: left;
     color: var(--color-negro);
@@ -157,6 +157,11 @@
         padding: 3rem 1rem;
     }
 
+    .clientes .titulo .textos p{
+        max-width: 480px;
+        width: 100%;
+    }
+
     .clientes .lista{
         gap: 1.5rem;
     }
@@ -172,5 +177,9 @@
 
     .clientes .lista p{
         font-size: clamp(0.8rem, 0.6041rem + 0.8247vw, 1rem);
+    }
+
+    .clientes .titulo a{
+        padding: 0.6rem 1.1rem;
     }
 }
