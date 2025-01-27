@@ -4,7 +4,7 @@ import flecha from '../assets/bottom.webp';
 
 const Nosotros = () => {
   return (
-    <div className='nosotros'>
+    <div className='nosotros' id='nosotros' >
       <main>
         <div className='contenido'>
           <section>

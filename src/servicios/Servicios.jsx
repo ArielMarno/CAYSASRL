@@ -65,7 +65,7 @@ const Servicios = () => {
   });
 
   return (
-    <div className='servicios'>
+    <div className='servicios' id='servicios'>
 
       <div className='titulo'>
         <h2>Nuestros Servicios</h2>

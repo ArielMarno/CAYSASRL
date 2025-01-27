@@ -4,7 +4,7 @@ import check from '../assets/clientes-check.webp';
 
 const Clientes = () => {
   return (
-    <div className='clientes'>
+    <div className='clientes'id='clientes' >
       <div className='contenedor-imagen'>
         <img src={clientes} alt="oficina" />
       </div>

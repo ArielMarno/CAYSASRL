@@ -3,7 +3,7 @@ import guante from '../assets/contacto.webp';
 
 const Formulario = () => {
   return (
-    <div className='contacto'>
+    <div className='contacto' id='contacto'>
       <main>
         <div className='formulario'>
           <div className='contenido'>

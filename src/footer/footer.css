@@ -1,0 +1,401 @@
+/*contenedor principal del componente*/
+.footer{
+    background: var(--color-blanco);
+    width: 100%;
+    min-height: 100svh;
+    display: grid;
+    padding-top: 3rem;
+    padding-bottom: 0;
+    gap: 3rem;
+    color: var(--color-negro);
+}
+
+/*contenedor de caja superior*/
+.footer_contenido{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0 7rem;
+}
+
+/*contenedor del logo, texto, ubicacion, lista de industrias y navegador*/
+.footer_contenido .logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+/*logo*/
+.footer_contenido .logo img{
+    width: 250px;
+    height: auto;
+}
+
+/*texto*/
+.footer_contenido .logo p{
+    font-family: var(--font-text);
+    font-size: 1.5rem;
+    max-width: 450px;
+    font-weight: 550;
+}
+
+/*contenedor de iconos a redes sociales*/
+.footer_contenido .redes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.7rem;
+}
+
+/*iconos con links a redes sociales*/
+.footer_contenido .redes img{
+    width: 48px;
+    height: auto;
+}
+
+/*contenedor de ubicación*/
+.footer_contenido .ubicacion{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.2rem;
+}
+
+/*titulo*/
+.footer_contenido .ubicacion h4{
+    font-family: var(--font-text);
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+
+/*dirección*/
+.footer_contenido .ubicacion p{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+/*mapa*/
+.footer_contenido .ubicacion .mapa{
+    border: none;
+    width: 450px;
+    height: 300px;
+    margin-top: 0.7rem;
+}
+
+/*contenedor de lista de industrias*/
+.footer_contenido .industria{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 4rem;
+}
+
+/*titulo*/
+.footer_contenido .industria h4{
+    font-family: var(--font-text);
+    font-weight: 550;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+/*contenedor de imagen y texto del item*/
+.footer_contenido .industria div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+/*icono checked*/
+.footer_contenido .industria div img{
+    width: 18px;
+    height: auto;
+}
+
+/*texto */
+.footer_contenido .industria div p{
+    font-family: var(--font-text);
+    font-size: 1.2rem;
+}
+
+/*contenedor de links para navegar por la pagina*/
+.footer_contenido .navegador{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.7rem;
+    margin-top: 4rem;
+}
+
+.footer_contenido .navegador h4{
+    font-family: var(--font-text);
+    font-size: 1.3rem;
+    font-weight: 550;
+    padding-bottom: 0.5rem;
+}
+
+/*links del navegador*/
+.footer_contenido .navegador a{
+    text-decoration: none;
+    font-family: var(--font-text);
+    color: var(--color-negro);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/*efecto subrayado*/
+.footer_contenido .navegador a:after {
+    display: block;
+    content: '';
+    margin-top: 0.1rem;
+    border-bottom: solid 2px var(--color-gris);
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+  
+.footer_contenido .navegador a:hover:after {
+    transform: scaleX(1);
+}
+
+/*contenedor datos de contacto*/
+.footer .footer_contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    padding: 0 7rem;
+}
+
+/*titulo*/
+.footer_contacto h4{
+    font-family: var(--font-text);
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+
+/*contenedor de items */
+.footer_contacto .contactanos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+/*contenido de cada dato*/
+.footer_contacto .contactanos .item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.5rem;
+    font-family: var(--font-text);
+}
+
+/*tipo de dato*/
+.footer_contacto .contactanos .item h5{
+    font-size: 1.1rem;
+    font-weight: 550;
+}
+
+/*dato*/
+.footer_contacto .contactanos .item p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/*copyright*/
+.footer .copy{
+    align-self: flex-end;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--color-azul);
+    padding: 0 7rem;
+}
+
+/*texto*/
+.footer .copy p{
+    font-family: var(--font-text);
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--color-blanco);
+    border-bottom: 2px;
+}
+
+/*link a sunflower*/
+.footer .copy .sunflower{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.footer .copy .sunflower a{
+    font-family: var(--font-text);
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--color-blanco);
+    text-decoration: none;
+    margin-top: 0.1rem;
+}
+
+/*efecto subrayado*/
+.copy .sunflower a:after {
+    display: block;
+    content: '';
+    border-bottom: solid 2px var(--color-gris);
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+  
+.copy .sunflower a:hover:after {
+    transform: scaleX(1);
+}
+
+
+
+/*codigo para dispositivos mobiles*/
+@media (max-width: 1440px){
+
+    .footer_contenido, .footer .footer_contacto, .footer .copy{
+        padding: 0 3rem;
+    }
+}
+
+@media (max-width: 1150px){
+
+    .footer_contenido, .footer .footer_contacto, .footer .copy{
+        padding: 0 1.5rem;
+    }
+    
+   .footer_contenido .navegador{
+        display: none;
+   }
+
+   /*texto*/
+    .footer_contenido .logo p{
+        font-size: clamp(1.3rem, 0.8979rem + 0.8377vw, 1.5rem);
+    }
+
+    .footer_contenido .redes a img{
+        width: 38px;
+        height: auto;
+    }
+
+    .footer_contenido .ubicacion .mapa{
+        width: 350px;
+        height: 300px;
+    }
+
+   .footer_contenido .ubicacion h4, .footer_contenido .industria h4{
+        font-size: clamp(1.1rem, 0.6979rem + 0.8377vw, 1.3rem);
+        font-weight: 600;
+    }
+
+    .footer_contenido .ubicacion p{
+        font-size: 1.1rem;
+    }
+
+    .footer_contenido .industria div img{
+        width: 15px;
+        height: auto;
+    }
+
+    .footer_contenido .industria div p{
+        font-size: 1rem;
+        font-weight: 550;
+    }
+
+    /*contenedor de items */
+    .footer_contacto .contactanos{
+        gap: 3rem;
+    }
+
+    .footer .copy p, .footer .copy .sunflower a{
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 768px){
+
+    .footer{
+        justify-items: center;
+    }
+
+    /*logo*/
+    .footer_contenido .logo img{
+        width: 200px;
+        height: auto;
+    }
+
+    /*texto*/
+    .footer_contenido .logo p{
+        font-size: 1.1rem;
+    }
+
+    .footer_contenido, .footer .footer_contacto, .footer .copy{
+        padding: 0 1rem;
+    }
+
+    .footer_contenido .ubicacion p{
+        font-size: 1rem;
+    }
+
+    .footer_contenido{
+        flex-direction: column;
+    }
+
+    .footer_contacto h4{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    .footer_contacto .contactanos{
+        width: 350px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .footer_contacto .contactanos .item h5{
+        font-size: 1rem;
+        font-weight: 550;
+    }
+
+    .footer_contacto .contactanos .item p{
+        font-size: 0.8rem;
+    }
+
+    .footer .copy{
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+}
+
+@media (max-width: 480px){
+
+
+    .footer_contenido .ubicacion .mapa{
+        max-width: 100%;
+        width: 100%;
+        height: 300px;
+    }
+
+    .footer_contacto .contactanos{
+        width: 300px;
+    }
+
+}

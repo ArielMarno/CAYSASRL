@@ -42,7 +42,6 @@ const Inicio = () => {
             </h1>
             <p>Te ofrecemos un amplio rango de servicios <br /> que se ajustan a tus necesidades.</p>
             <div className='contenedor_btn'>
-              <a href="#">Presupuesto</a>
               <a href="#">Contactarse</a>
             </div>
           </div>
