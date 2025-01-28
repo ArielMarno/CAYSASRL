@@ -2,13 +2,14 @@ import './cinta.css';
 
 import castro from '../assets/cinta/castro.webp';
 import cema from '../assets/cinta/cema.webp';
-import edilicia from '../assets/cinta/edilicia.webp';
+import ineco from '../assets/cinta/ineco.webp';
 import elas from '../assets/cinta/elas.webp';
 import esencial from '../assets/cinta/esencial.webp';
 import gallo from '../assets/cinta/gallo.webp';
 import oroño from '../assets/cinta/oroño.webp';
 import parque from '../assets/cinta/parque.webp';
 import sakura from '../assets/cinta/sakura.webp';
+import edilizia from '../assets/cinta/edilizia.webp';
 
 
 
@@ -23,7 +24,7 @@ const Cinta = () => {
           <img src={cema} alt="cema" />
         </div>
         <div className='logo'>
-          <img src={edilicia} alt="edilicia" />
+          <img src={ineco} alt="ineco" />
         </div>
         <div className='logo'>
           <img src={elas} alt="elas" />
@@ -43,6 +44,10 @@ const Cinta = () => {
         <div className='logo'>
           <img src={sakura} alt="sakura" />
         </div>
+        <div className='logo'>
+          <img src={edilizia} alt="edilizia" />
+        </div>
+
 
         <div className='logo'>
           <img src={castro} alt="castro" />
@@ -51,7 +56,7 @@ const Cinta = () => {
           <img src={cema} alt="cema" />
         </div>
         <div className='logo'>
-          <img src={edilicia} alt="edilicia" />
+          <img src={ineco} alt="ineco" />
         </div>
         <div className='logo'>
           <img src={elas} alt="elas" />
@@ -70,6 +75,9 @@ const Cinta = () => {
         </div>
         <div className='logo'>
           <img src={sakura} alt="sakura" />
+        </div>
+        <div className='logo'>
+          <img src={edilizia} alt="edilizia" />
         </div>
       </main>
     </div>

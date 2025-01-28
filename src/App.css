@@ -12,15 +12,18 @@
     --color-amarillo: #E9CB37;
 }
 
-body{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
     background-image: url('/fondos/fondo1.webp');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    scroll-behavior: smooth;
 }
 
 

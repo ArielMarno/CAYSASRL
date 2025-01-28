@@ -18,7 +18,7 @@ const Clientes = () => {
             <p>Solo con revisar nuestra cartera de clientes le servirá para tener una garantía de la calidad de 
             nuestros resultados.</p>
           </div>
-          <a href="#">Más Información</a>
+          <a href="https://wa.link/olf7mo">Más Información</a>
         </section>
         <div className='lista'>
           <div className='columna'>

@@ -187,7 +187,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 5rem;
+    gap: 4.5rem;
 }
 
 /*contenido de cada dato*/
@@ -248,14 +248,14 @@
     font-weight: 500;
     color: var(--color-blanco);
     text-decoration: none;
-    margin-top: 0.1rem;
+    padding-top: 0.2rem;
 }
 
 /*efecto subrayado*/
 .copy .sunflower a:after {
     display: block;
     content: '';
-    border-bottom: solid 2px var(--color-gris);
+    border-bottom: solid 2px var(--color-amarillo);
     transform: scaleX(0);
     transition: transform 250ms ease-in-out;
 }
@@ -326,6 +326,10 @@
     .footer .copy p, .footer .copy .sunflower a{
         font-size: 0.7rem;
     }
+
+    .footer .copy .sunflower a{
+        padding-top: 0.1rem;
+    }
 }
 
 @media (max-width: 768px){
@@ -375,7 +379,7 @@
     }
 
     .footer_contacto .contactanos .item p{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .footer .copy{

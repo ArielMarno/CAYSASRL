@@ -19,7 +19,7 @@ const Nosotros = () => {
               uno de los referentes y nos posiciona dentro de un mercado altamente competitivo en 
               la ciudad de Rosario y alrededores.</p>
             </article>
-            <a href="#">Conocer Más</a>
+            <a href="https://www.instagram.com/caysa.ok">Conocer Más</a>
           </section>
           </div>
           <aside>

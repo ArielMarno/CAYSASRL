@@ -13,12 +13,12 @@ import der from '../assets/flecha-d.webp';
 
 
 const tarjetas = [
-  { id: 1, imagen: limpieza, titulo: 'Limpieza Integral y Mantenimiento', numero: '01'},
-  { id: 2, imagen: tratamiento, titulo: 'Tratamiento de Pisos', numero: '02'},
-  { id: 3, imagen: altura, titulo: 'Lavado de Vidrios en Altura', numero: '03'},
-  { id: 4, imagen: alfombra, titulo: 'Lavado de Alfombras', numero: '04'},
-  { id: 5, imagen: antimanchas, titulo: 'Tratamiento Antimanchas', numero: '05'},
-  { id: 6, imagen: finaldeobra, titulo: 'Finales de Obra', numero: '06'}
+  { id: 1, imagen: limpieza, titulo: 'Limpieza Integral y Mantenimiento', numero: '01', link:"https://wa.link/pq3slk"},
+  { id: 2, imagen: tratamiento, titulo: 'Tratamiento de Pisos', numero: '02', link: "https://wa.link/q57gmb"},
+  { id: 3, imagen: altura, titulo: 'Lavado de Vidrios en Altura', numero: '03', link: "https://wa.link/fx4gkb"},
+  { id: 4, imagen: alfombra, titulo: 'Lavado de Alfombras', numero: '04', link: "https://wa.link/949wi4"},
+  { id: 5, imagen: antimanchas, titulo: 'Tratamiento Antimanchas', numero: '05', link: "https://wa.link/b5743s"},
+  { id: 6, imagen: finaldeobra, titulo: 'Finales de Obra', numero: '06', link: "https://wa.link/zjnqku"}
 ];
 
 const Servicios = () => {
@@ -38,7 +38,7 @@ const Servicios = () => {
     } else if (windowWidth > 768) {
       distance = 350;
     } else {
-      distance = 700;
+      distance = 640;
     }
 
     const start = current.scrollLeft;
@@ -83,7 +83,7 @@ const Servicios = () => {
                 <h4>{tarjeta.numero}</h4>
                 <h3>{tarjeta.titulo}</h3>
               </section>
-              <a href="#">Consultar</a>
+              <a href={tarjeta.link}>Consultar</a>
           </div>
           ))}
         </div>

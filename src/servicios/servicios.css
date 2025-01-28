@@ -49,6 +49,8 @@
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
+    touch-action: none;
+    touch-action: pan-y;
 }
 
 /*contendor de tarjetas*/
@@ -57,10 +59,11 @@
     display: grid;
     grid-auto-flow: column;
     overflow-x: auto;
-    border-radius: 20px;
+    border-radius: 45px;
     scrollbar-width: none;
-    overflow-y: hidden;
-    touch-action: none;
+    user-select: none;
+    overflow-y: auto;
+    touch-action: pan-y;
     gap: 100px;
 }
 
@@ -115,6 +118,8 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
+    overflow-y: auto;
+    touch-action: pan-y;
 }
 
 /*flechas*/
@@ -234,6 +239,43 @@
     /*flechas*/
     .contenedor-flechas img{
         width: 55px;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px){
+    /*contendor de tarjetas*/
+    .contenedor-tarjetas{
+        max-width: 320px;
+        gap: 320px;
+    }
+
+    /*tarjetas con servicios*/
+    .contenedor-tarjetas .tarjetas{
+        width: 320px;
+        height: 420px;
+        padding: 1.5rem;
+        padding-top: 3rem;
+    }
+
+    /*nombre del servicio*/
+    .contenedor-tarjetas section h3{
+        font-size: 2.3rem;
+    }
+
+    /*llamada a la acción*/
+    .contenedor-tarjetas a{
+        font-size: 1rem;
+    }
+
+    /*contenedor de flechas para desplazar tarjetas*/
+    .contenedor-flechas{
+        max-width: 320px;
+    }
+
+    /*flechas*/
+    .contenedor-flechas img{
+        width: 50px;
         height: auto;
     }
 }

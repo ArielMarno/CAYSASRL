@@ -12,7 +12,7 @@
     gap: 100px;
     animation: scroll 40s linear infinite;
     -webkit-animation: scroll 40s linear infinite;
-    width: calc(250px * 18);
+    width: calc(250px * 20);
 }
 
 .cinta .logo {
@@ -30,8 +30,8 @@
         transform: translateX(0);
     }
     100% {
-        -webkit-transform: translateX(calc(-250px * 9));
-        transform: translateX(calc(-250px * 9));
+        -webkit-transform: translateX(calc(-250px * 10));
+        transform: translateX(calc(-250px * 10));
     }
 }
   
